@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') { 
             steps {
-              git 'https://giinithub.com/Hiteshmankar123/new_practice_repo.git'  
+              git 'https://github.com/Hiteshmankar123/new_practice_repo.git'  
             }
         }
         stage('Build') { 
