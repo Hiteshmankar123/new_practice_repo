@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') { 
             steps {  
-                 echo "Build successful"        
+                 echo "Build successful by Hitesh"        
             }
         }
         stage('Test') { 
